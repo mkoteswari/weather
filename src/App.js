@@ -66,6 +66,7 @@ function App() {
 
             <div className="weather-box">
             <div className ="temp">
+            Temperature - 
             {weather.main === undefined ?null : Math.round(weather.main.temp)}
              *c
 
