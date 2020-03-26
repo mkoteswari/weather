@@ -60,14 +60,14 @@ function App() {
            </div>
            <div className="location-box">
            <div className="location">
-           Newyorkcity, us {weather?weather.name:null}{weather.main === undefined ?null :weather.sys.country}
+            {weather?weather.name:null}{weather.main === undefined ?null :weather.sys.country}
            <div className="date">{dateBuilder(new Date())}</div>
            </div>
 
             <div className="weather-box">
             <div className ="temp">
             {weather.main === undefined ?null : Math.round(weather.main.temp)}
-             sunny^c
+             *c
 
             </div>
 
