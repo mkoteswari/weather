@@ -1,0 +1,41 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+body{
+  font-family: 'montseratte', sans-serif;
+}
+.app {
+  background-image: url('./assets/background2.jpg');
+  background-position: bottom;
+  background-size:cover;
+  transition:0.4 ease-out;
+
+}
+.app.warm{
+  background-image: url('./assets/background2.jpg')
+}
+main{
+  min-height: 100vh;
+  
+  padding:25px;
+}
+.search-box{
+  width:100%;
+  margin:0 0 75px;
+}
+.search-box .search-bar{
+  display:block;
+  width:100%;
+  padding:15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline:none;
+  background-color: aquamarine;
+  border-radius: 0px 0px 16px 16px; 
+
+}
